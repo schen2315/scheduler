@@ -1,0 +1,32 @@
+//private graph class built from array of linked lists of nodes
+	//do i need LL?
+	//single path representing all classes taken
+//additional credit requirements
+//requirements & mandatory classes in an array
+
+//figure out some way of making sure one of the CHOOSE courses from each line is fulfilled
+
+//node structure
+	//const string course name
+	//prerequesites
+	//additional credit letter
+	//if taken in spring vs fall
+	//pointer to next node -> outgoing edge to node
+
+//basically write seperate checks:
+	//need to make sure there are no loops
+	//go through all nodes and make sure mandatory and required courses are taken
+//implement graph
+	//vector of nodes
+	//array length 26 representing dif types of credits required
+//implement a vector
+//implement a node class
+	//const string course name
+	//vector of prereqs
+	//semester taken in -> if empty then N/A
+		//include a check when going through schedule
+		//that the course is taken in the semester that it is offered in
+		//test that all required classes are taken
+	
+	//traversed boolean
+	//credits it satisfy
