@@ -70,7 +70,10 @@ T& Vec<T>::operator[](int i) {
 	if(i < length && i >= 0) {
 		return array[i];
 	}
-	else return 0;
+	else {
+		T* dummy = new T();
+		return *dummy;
+	}
 };
 
 
